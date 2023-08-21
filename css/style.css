@@ -400,7 +400,7 @@ a
   }
   
 .icon-container i {
-    font-size: 24px; /* 调整图标大小 */
+    font-size: 30px; /* 调整图标大小 */
   }
 
 .head-icon
@@ -417,6 +417,7 @@ a
     padding-bottom: 56.25%; /* 16:9 宽高比，调整为 75% 可获得 4:3 宽高比 */
     height: 0;
     overflow: hidden;
+    margin: 20px 0 20px 0;
   }
   
   .video-container iframe {
