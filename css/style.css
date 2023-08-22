@@ -208,6 +208,19 @@ a
     line-height: 1.5;
     color: #000;
 }
+.post-video-title
+{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000;
+}
+.post-video-title a:hover{
+    color: #2314fc; /* 鼠标悬停时的颜色 */
+    transition: color 0.3s ease;
+}
 .post-abstract
 {
     text-align: justify;
@@ -439,7 +452,7 @@ a
     padding-bottom: 56.25%; /* 16:9 宽高比，调整为 75% 可获得 4:3 宽高比 */
     height: 0;
     overflow: hidden;
-    margin: 50px 0 50px 0;
+    margin: 10px 0 50px 0;
     border: 0.5rem solid;
     border-radius: 0.1rem;
   }
