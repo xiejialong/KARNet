@@ -40,7 +40,7 @@ a
     width: 100%;
     max-width: 1080px;
     margin: 0 auto;
-    padding: 72px 8vw 24px;
+    padding: 50px 8vw 24px;
     background: #fff;
     border-radius: 24px;
     background: #fff;
@@ -182,17 +182,29 @@ a
     /* color: var(--font-color-1); */
     color: #000;
     align-content: center;
-    flex: 0 0 100%;
-
-
-    
+    flex: 0 0 100%; 
     /*transition: color ease-in-out .5s;*/
 }
+
+.post-affiliations
+{
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom: 12px;
+    /* color: var(--font-color-1); */
+    color: #000;
+    align-content: center;
+    flex: 0 0 100%; 
+    /*transition: color ease-in-out .5s;*/
+}
+
 .post-abstract
 {
     text-align: justify;
     margin-top: 15px;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: 500;
     line-height: 1.5;
     margin-bottom: 15px;
@@ -395,13 +407,17 @@ a
 
 .icon-container {
     text-align: center; /* 居中图标 */
-    color: #000;
+    color: #000000;
     margin: 0 10px 0 10px;
   }
   
 .icon-container i {
     font-size: 30px; /* 调整图标大小 */
   }
+.icon-container:hover {
+    color: #e74c3c; /* 鼠标悬停时的颜色 */
+    transition: color 0.3s ease;
+}
 
 .head-icon
 {
@@ -410,6 +426,8 @@ a
     align-items: center; /* 垂直居中 */
     width: 100%; /* 设置 <div> 的宽度 */
     margin-bottom: 12px;
+    color: #000;
+    
 }
 
 .video-container {
@@ -417,14 +435,21 @@ a
     padding-bottom: 56.25%; /* 16:9 宽高比，调整为 75% 可获得 4:3 宽高比 */
     height: 0;
     overflow: hidden;
-    margin: 20px 0 20px 0;
+    margin: 50px 0 50px 0;
+    border: 0.5rem solid;
+    border-radius: 0.1rem;
   }
   
-  .video-container iframe {
+.video-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
+}
   
+.line {
+    width: 100%; /* 横线宽度 */
+    border-bottom: 1px solid #ccc; /* 边框样式 */
+    margin: 20px 0; /* 上下外边距，根据需要调整 */
+}
