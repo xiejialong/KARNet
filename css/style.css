@@ -225,11 +225,7 @@ a
     
     /*transition: color ease-in-out .5s;*/
 }
-.post-title:hover
-{
-    color: var(--font-color-0);
-    transition: color ease-in-out .5s;
-}
+
 .post-except
 {
     /* word-break: break-all; */
